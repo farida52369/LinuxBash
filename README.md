@@ -3,7 +3,8 @@
 
 ## Exercise__1
 
-__1.make a directory called LC in your home dir__
+
+--1.make a directory called LC in your home dir--
 
 
 
