@@ -15,7 +15,14 @@ cd && mkdir LC
 cd && cd LC && touch test
 ```
 
-
+~~write into test file~~
+```
+cd && cd LC && cat >> test  # >> To append
+# Write Here What u want in our case
+#!/bin/sh
+    curl --head --silent https://www.google.com/
+# CTRL + D  ---> To get out from cat command
+```
 
 
 
