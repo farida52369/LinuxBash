@@ -25,7 +25,7 @@ cd && cd LC && cat >> test  # >> To append
 ```
 <html>
     <head>
-        <h1>Fareeda<h1>
+        <h2>Fareeda<h2>
     </head>
 
 </html>
