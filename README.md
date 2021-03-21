@@ -23,6 +23,11 @@ cd && cd LC && cat >> test  # >> To append
     curl --head --silent https://www.google.com/
 # CTRL + D  ---> To get out from cat command
 ```
+<html>
+    <head>
+        <h1>Fareeda<h1>
+    </head>
 
+</html>
 
 
