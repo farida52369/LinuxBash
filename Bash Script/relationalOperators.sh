@@ -12,11 +12,11 @@ VAR1=5
 VAR2=10
 
 if [ $VAR1 -gt $VAR2 ]
+then
 echo "$VAR1 greater than $VAR2"
-then
 elif [ $VAR1 -lt $VAR2 ]
-echo "$VAR1 less than $VAR2"
 then
+echo "$VAR1 less than $VAR2"
 else
 echo "$VAR1 equal $VAR2"
 fi
