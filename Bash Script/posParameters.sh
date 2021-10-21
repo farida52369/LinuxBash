@@ -1,5 +1,11 @@
 #!/usr/bin/bash
 
+#DON'T FORGET TO CHANGE THE MODE
+# $chmod +x posParameters.sh
+# $./posParameters.sh
+
+# ARGUMENTS ${0, 1, 2, 3, .., @, #, *}
+
 echo "Script Name: $0" 
 echo "User Name: $1"
 echo "Age: $2"
@@ -28,7 +34,4 @@ echo "$@"
 echo $#  
 # GIVE A SINGLE WORD AS OPPOSED TO A LIST OF ARGUMENTS
 echo $*
-
-
-
 
