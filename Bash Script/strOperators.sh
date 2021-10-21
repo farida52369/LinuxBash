@@ -5,7 +5,6 @@
 # $chmod +x strOperators.sh
 # $./strOperators.sh
 
-
 # EQUALITY OPERATORS 
 # =   with []
 # ==  with [[]]
@@ -35,7 +34,11 @@ else
     echo "NOT EQUAL!"
 fi
 
+# ------------------------------
+ 
 [[ $VAR1 == $VAR2 ]] && echo "Equal." || echo "Not Equal!"
+
+# -------------------------------
 
 VAR5="Hello"
 VAR6="Ubuntu"
@@ -45,6 +48,7 @@ else
     echo "$VAR6 is Lexicographically greater than $VAR5"
 fi
 
+# ------------------------------
 
 VAR3="Fareeda Ragab is Student in CSED"
 if [[ $VAR3 == *"CSED"* ]]; then
@@ -53,11 +57,15 @@ else
     echo "No, CSED doesn't exist!"
 fi
 
+# ------------------------------
+
 if [[ $VAR3 =~ .*CSED.* ]]; then
     echo "Yes, CSED exists"
 else
     echo "No, CSED doesn't exist!"
 fi
+
+# ------------------------------
 
 VAR4=""
 if [[ -z $VAR4 ]]; then
@@ -66,6 +74,7 @@ else
     echo "The String is Not EMPTY!"
 fi
 
+# ------------------------------
 
 if [[ -n $VAR1 ]]; then
     echo "The String is Not EMPTY"
@@ -73,6 +82,4 @@ else
     echo "The String EMPTY!"
 fi
 
-
-
-
+# :)
