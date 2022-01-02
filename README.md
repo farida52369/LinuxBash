@@ -4,6 +4,7 @@
 ## Exercise__1
 
 
+
 ~~Make a directory called LC in your home dir~~
 ``` Terminal
 cd && mkdir LC
