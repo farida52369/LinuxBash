@@ -16,6 +16,7 @@ cd && mkdir LC
 cd && cd LC && touch test
 ```
 
+
 ~~write into test file~~
 ```
 cd && cd LC && cat >> test  # >> To append
