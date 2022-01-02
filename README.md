@@ -4,6 +4,7 @@
 ## Exercise__1
 
 
+
 ~~Make a directory called LC in your home dir~~
 ``` Terminal
 cd && mkdir LC
@@ -14,6 +15,7 @@ cd && mkdir LC
 ``` terminal
 cd && cd LC && touch test
 ```
+
 
 ~~write into test file~~
 ```
