@@ -1,0 +1,11 @@
+# YOU DON'T HAVE TO WRITE THE NAME OF THE FILE .sh
+# TO GET THE BASH PATH
+# $which bash (THE OUTPUT: /usr/bin/bash)
+# THE CREATING OF THE FILE WITHOUT EXCUTION COMMAND
+# $chmod +x fileName || $chmod 755 fileName
+# THEN TO RUN THE SCRIPT
+# $./fileName
+
+# THE CONTENT __ UNIVERSAL UPDATES IN BASH SCRIPT
+
+#!/usr/bin/bash
